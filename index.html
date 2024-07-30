@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Our Discord Server</title>
+    <title>Real.Toxic</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="rtgearlogo.gif" alt="Spotify Logo" class="logo">
-        <h1>Join Our Discord Server</h1>
-        <p>To join our Discord server, please click the button below. Make sure to open the link in your browser if prompted.</p>
-        <a href="https://discord.gg/walling" target="_blank" class="btn">Join Now</a>
+    <div id="warning">
+        <h1>Warning this site has been taken down by the FBI. Are you sure you want to enter?</h1>
+        <div class="choices">
+            <div class="choice" onclick="enterSite()">Yes</div>
+            <div class="choice" onclick="enterSite()">Yes</div>
+        </div>
     </div>
+    <div id="main-content">
+        <div class="background-blur">
+            <img src="https://pbs.twimg.com/media/EtG5HSmUwAA6rYd.jpg:large" alt="Profile Picture" class="profile-pic">
+            <h2 class="username">real.toxic</h2>
+            <h3 class="domain-name">reallytoxic.com</h3>
+            <div class="buttons">
+                <button onclick="window.location.href='https://discord.gg/SJ3dJYAeun'">Discord</button>
+                <button onclick="window.location.href='https://tiktok.com'">TikTok</button>
+            </div>
+        </div>
+    </div>
+    <audio id="background-music" src="files/wait4u.mp3" loop></audio>
+    <script src="script.js"></script>
 </body>
 </html>
